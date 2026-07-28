@@ -59,7 +59,6 @@ body{
   height: auto;
   backdrop-filter: blur(1000px);
   background-color: var(--nav-color);
-  
   z-index: 999;
 }
 .uppernav-container{
@@ -87,6 +86,12 @@ body{
   background-color: var(--nav-color);
   
   z-index: 999;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .button{
   background-color: transparent;
@@ -274,7 +279,7 @@ body{
   flex-direction: column;
   overflow-y: auto;
   left: 5px;
-  top: 100px;
+  top: 150px;
   width: 10%;
 }
 .sidebar-item{
@@ -305,7 +310,7 @@ body{
   gap: var(--gap-content-container);
   height: 60%;
   width: 60%;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 .content-card{
   display: flex;
@@ -365,4 +370,30 @@ body{
 .content-date, .content-name{
   color: var(--info-color);
   font-size: var(--font-size);
+}
+
+@media (max-width: 800px) {
+  .theme-wrapper{
+    width: 70%;
+  }
+  .sidebar-container{
+    z-index: 990;
+    overflow-x:hidden;
+    width: 50%;
+    background-color: var(--bg-color);
+    height: 100%;
+    box-shadow: 10px 0 20px var(--bg-color);
+    top: 90px;
+  }
+  .uppernav-container{
+    flex-wrap:wrap;
+  }
+  .searchbar-container{
+    flex: 0 1 100px;
+  }
+  .user-container{
+    position: absolute;
+    visibility: hidden;
+    
+  }
 }

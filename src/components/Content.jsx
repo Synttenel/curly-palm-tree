@@ -71,6 +71,14 @@ const [contents, setContents] = useState([
       icon: "https://img.icons8.com/?size=100&id=124029&format=png&color=FFFFFF",
       text: "Later"
     },
+    {
+      icon: "https://img.icons8.com/?size=100&id=H101gtpJBVoh&format=png&color=FFFFFF",
+      text: "Profile"
+    },
+    {
+      icon: "https://img.icons8.com/?size=100&id=nJRLlq8KqcX5&format=png&color=FFFFFF",
+      text: "Notifications"
+    },
 
   ])
 

@@ -100,7 +100,7 @@ function Navbar(){
               <div className='button-container'>
                 <button className='button' onClick={() => handleCloseSide()}>
                   
-    <svg width="50px" height="50px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="30px" height="30px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
