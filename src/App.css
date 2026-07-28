@@ -29,6 +29,9 @@
   color: var(--font-color);
 }
 
+.page-load{
+  visibility: hidden;
+}
 html{
   background-color: var(--bg-color);
   overflow-y: scroll;
@@ -88,9 +91,11 @@ body{
 .button{
   background-color: transparent;
   border: none;
+  border-radius: 1000px;
 }
 .button:hover{
   cursor: pointer;
+  background-color: var(--hoverbg-color);
 }
 .button-icon{
   width: 50px;
@@ -260,6 +265,7 @@ body{
   justify-content: center;
   align-items: center; 
   width: 100%;
+  visibility: visible;
 }
 
 .sidebar-container{
@@ -298,6 +304,7 @@ body{
   flex-wrap: wrap;
   gap: var(--gap-content-container);
   height: 60%;
+  width: 60%;
   padding-top: 100px;
 }
 .content-card{
